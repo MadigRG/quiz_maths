@@ -2,11 +2,11 @@
 import streamlit as st
 
 questions = [
-    {"question": r"Une suite qui ne converge pas tend vers +\infty ou -\infty." ,
+    {"question": r"Une\,suite\,qui\,ne\,converge\,pas\,tend\,vers\,+\infty\,ou\,-\infty." ,
      "options": ["Vrai","Faux"] , 
      "reponse": "Faux" ,
      "explication": r"test"},
-    {"question": r"Si (u_{2n}) et (u_{2n+1}) convergent alors (u_n) converge.",
+    {"question": r"Si\,(u_{2n})\,et\,(u_{2n+1})\,convergent\,alors\,(u_n)\,converge.",
       "options": ["Vrai","Faux"],
       "reponse": "Faux",
       "explication": r"Contre-exemple : u_n = (-1)^n" }
