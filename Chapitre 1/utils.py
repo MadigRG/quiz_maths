@@ -10,6 +10,15 @@ questions = [
       "options": ["Vrai","Faux"],
       "reponse": "Faux",
       "explication": r"Contre-exemple : $u_n = (-1)^n$" }
+     {"question": r"Si $(u_{2n})$ et $(u_{2n+1})$ convergent alors $(u_n)$ converge.",
+      "options": ["Vrai","Faux"],
+      "reponse": "Faux",
+      "explication": r"Contre-exemple : $u_n = (-1)^n$" }
+     {"question": r"Seule une des méthodes suivantes permet d'affirmer que $(u_n)$ converge. Laquelle ?",
+      "options": ["On montre que $(u_{2n})$ et $u_{2n + 1})$ sont des suites adjacentes","On étudie le signe de $u_{n+ 1} - u_n$ pour tout $n \in \N$.","On montre que $(u_n)$ est bornée","On calcule quelques valeurs de la suite, et on constate qu'elle semble se rapprocher d'une valeur"],
+      "reponse": "On montre que $(u_{2n})$ et $u_{2n + 1})$ sont des suites adjacentes,
+      "explication": r"Contre-exemple : $u_n = (-1)^n$" }
+
  
 ]
 
